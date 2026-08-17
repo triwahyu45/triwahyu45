@@ -15,16 +15,22 @@
     <img src="./assets/running_marquee.svg" width="100%" alt="Running Ticker" />
   </div>
 
-  <!-- TOP BADGES & SOCIAL LINKS -->
+  <!-- COMPREHENSIVE CONNECT & SOCIAL BADGES -->
   <p align="center">
     <a href="https://triwahyu45.github.io/Portofolio/" target="_blank">
-      <img src="https://img.shields.io/badge/Live_3D_Portfolio-00F5D4?style=for-the-badge&logo=three.js&logoColor=black&labelColor=0D1117" alt="Portfolio" />
+      <img src="https://img.shields.io/badge/3D_Portfolio-00F5D4?style=for-the-badge&logo=three.js&logoColor=black&labelColor=0D1117" alt="Portfolio" />
     </a>
     <a href="https://www.linkedin.com/in/tri-wahyu-handoyo-a5a40026a/" target="_blank">
       <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117" alt="LinkedIn" />
     </a>
     <a href="https://instagram.com/triwahyu45" target="_blank">
       <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=0D1117" alt="Instagram" />
+    </a>
+    <a href="https://instagram.com/detronics.id" target="_blank">
+      <img src="https://img.shields.io/badge/Detronics.ID-FF007F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=0D1117" alt="Detronics ID" />
+    </a>
+    <a href="https://linktr.ee/triwahyu45" target="_blank">
+      <img src="https://img.shields.io/badge/Linktree-43E660?style=for-the-badge&logo=linktree&logoColor=white&labelColor=0D1117" alt="Linktree" />
     </a>
     <a href="mailto:triwahyu45@gmail.com">
       <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117" alt="Email" />
@@ -38,18 +44,18 @@
 
 ---
 
-### 💡 About Me & My AI-Driven Philosophy
+### 💡 About Me & My AI-Driven Engineering Philosophy
 
-> *"Hanya seorang pemuda yang memaksimalkan kecerdasan buatan (AI) untuk mewujudkan ide, riset, dan proyek teknologi yang saya sukai — dari robotika hingga simulator web interaktif."*
+> *"Just a passionate young maker harnessing the power of Artificial Intelligence to turn ambitious robotics, computer vision, and engineering ideas into reality."*
 
-🎓 **S1 Pendidikan Teknik Mekatronika — Universitas Negeri Yogyakarta (UNY)**.
+🎓 **Undergraduate in Mechatronics Engineering Education** at **Universitas Negeri Yogyakarta (UNY)**.
 
-Saya percaya bahwa masa depan rekayasa adalah **kolaborasi antara intuisi manusia dan kecepatan AI**. Sebagian besar proyek, simulator, firmware, dan sistem kontrol di repositori ini dikembangkan dengan memanfaatkan bantuan **Google Antigravity AI**, dipadukan dengan pemahaman mendalam tentang kinematika robot, elektronika embedded, dan computer vision.
+I believe the future of engineering is **human creativity supercharged by AI intelligence**. Most of the autonomous robotics simulators, embedded telemetry pipelines, firmware, and WebGL tools in my repositories are engineered by blending hands-on mechatronics knowledge with **Google Antigravity AI** — achieving ultra-fast prototyping, robust architecture, and production-grade reliability.
 
-- 🤖 **Young Maker & AI Explorer**: Memanfaatkan AI Agent untuk merancang arsitektur kode kompleks, optimasi algoritma, dan prototyping kilat.
-- 🏆 **National Robotics Champion**: Kontingen Robotika UNY (Juara 1 Regional & Juara 2 Nasional KRTMI 2024 Puspresnas Kemendikbudristek).
-- 👨‍🏫 **LKS National Mentor**: Berbagi ilmu dan membimbing generasi muda SMK di bidang sistem embedded & IoT.
-- 👁️ **Computer Vision & Hardware Enthusiast**: Menghubungkan model YOLOv8/11 dengan mikrokontroler ESP32/STM32 untuk pelacakan objek nyata.
+- 🤖 **AI-Empowered Maker**: Leveraging autonomous AI Agents to design complex mechanical kinematics, PID control loops, and high-performance web simulators.
+- 🏆 **National Robotics Champion**: UNY Robotics Contingent (🥇 1st Place Regional & 🥈 2nd Place National KRTMI 2024 by Ministry of Education & Puspresnas RI).
+- 👨‍🏫 **National Vocational Mentor**: Guiding young robotics engineers for the National Vocational Skills Competition (LKS) in Embedded Systems & IoT.
+- 👁️ **Computer Vision & Hardware Enthusiast**: Deploying real-time YOLOv8/11 neural networks to edge hardware (ESP32/STM32) for live object detection and tracking.
 
 ---
 
@@ -57,12 +63,12 @@ Saya percaya bahwa masa depan rekayasa adalah **kolaborasi antara intuisi manusi
 
 <div align="center">
 
-| Award / Honor | Organizing Body | Role & Contribution |
+| Honor / Award | Organizing Body | Role & Engineering Contribution |
 | :--- | :--- | :--- |
-| 🥇 **Juara 1 Regional I Wilayah** | **KRTMI 2024 (BPTI Puspresnas Kemendikbudristek)** | Lead Robotics Programmer — Abhinaya UNY |
-| 🥈 **Juara 2 Tingkat Nasional** | **KRTMI 2024 (BPTI Puspresnas Kemendikbudristek)** | Drivetrain Kinematics & Autonomous Motion Control |
-| 🏅 **Finalis Nasional KRI** | **KRTMI 2023 (USM Semarang)** | Autonomous Sensor Navigation & Telemetry |
-| 👨‍🏫 **Pembimbing LKS Nasional** | **Lomba Kompetensi Siswa SMK (2025/2026)** | National Mentor for Embedded Systems & IoT |
+| 🥇 **1st Place Champion (Regional I)** | **KRTMI 2024 (BPTI Puspresnas Kemendikbudristek)** | Lead Robotics Programmer — Team Abhinaya UNY |
+| 🥈 **2nd Place Runner-Up (National)** | **KRTMI 2024 (BPTI Puspresnas Kemendikbudristek)** | Drivetrain Kinematics & Autonomous Motion Control |
+| 🏅 **National Finalist** | **KRTMI 2023 (USM Semarang)** | Autonomous Sensor Navigation & Telemetry Developer |
+| 👨‍🏫 **National LKS Mentor** | **SMK National Skills Competition (2025/2026)** | National Mentor for Embedded Systems, IoT & Robotics |
 
 </div>
 
@@ -138,6 +144,25 @@ Saya percaya bahwa masa depan rekayasa adalah **kolaborasi antara intuisi manusi
     </td>
   </tr>
 </table>
+
+</div>
+
+---
+
+### 🌐 Connect & Collaborate Across The Web
+
+Feel free to connect with me for robotics collaborations, open-source discussions, or engineering inquiries:
+
+<div align="center">
+
+| Platform | Handle / Link | Purpose |
+| :--- | :--- | :--- |
+| 🌐 **Live Portfolio** | [**triwahyu45.github.io/Portofolio**](https://triwahyu45.github.io/Portofolio/) | 3D Interactive Showcase & CAD Archives |
+| 💼 **LinkedIn** | [**Tri Wahyu Handoyo**](https://www.linkedin.com/in/tri-wahyu-handoyo-a5a40026a/) | Professional Network & Career Inquiries |
+| 📸 **Instagram** | [**@triwahyu45**](https://instagram.com/triwahyu45) | Personal Engineering Stories & Updates |
+| ⚡ **Tech Studio** | [**@detronics.id**](https://instagram.com/detronics.id) | Electronics, IoT & Custom Hardware Works |
+| 🌳 **All Links** | [**linktr.ee/triwahyu45**](https://linktr.ee/triwahyu45) | Quick Links to All My Projects & Profiles |
+| ✉️ **Direct Email** | [**triwahyu45@gmail.com**](mailto:triwahyu45@gmail.com) | Collaboration & Mentoring Contact |
 
 </div>
 
