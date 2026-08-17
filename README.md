@@ -7,12 +7,12 @@
 
   <!-- CYBERPUNK SELF-HOSTED VECTOR HEADER -->
   <a href="https://triwahyu45.github.io/Portofolio/" target="_blank">
-    <img src="https://raw.githubusercontent.com/triwahyu45/triwahyu45/main/assets/cyberpunk_header.svg" width="100%" alt="Tri Wahyu Handoyo - Mechatronics & Robotics" />
+    <img src="./assets/cyberpunk_header.svg" width="100%" alt="Tri Wahyu Handoyo - Mechatronics & Robotics" />
   </a>
 
   <!-- DYNAMIC RUNNING TEXT TICKER / MARQUEE -->
   <div style="margin-top: 10px; margin-bottom: 15px;">
-    <img src="https://raw.githubusercontent.com/triwahyu45/triwahyu45/main/assets/running_marquee.svg" width="100%" alt="Running Ticker" />
+    <img src="./assets/running_marquee.svg" width="100%" alt="Running Ticker" />
   </div>
 
   <!-- TOP BADGES & SOCIAL LINKS -->
@@ -177,5 +177,5 @@ If my robotics simulators, CAD models, or open-source tools helped your project,
 ---
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/triwahyu45/triwahyu45/main/assets/footer_wave.svg" width="100%" alt="Footer Wave" />
+  <img src="./assets/footer_wave.svg" width="100%" alt="Footer Wave" />
 </div>
