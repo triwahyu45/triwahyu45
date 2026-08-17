@@ -2,21 +2,21 @@
 
   <!-- PROFILE VIEWS COUNTER -->
   <p align="right">
-    <img src="https://komarev.com/ghpvc/?username=triwahyu45&style=flat-square&color=00F5D4&label=PROFILE+VIEWS+%F0%9F%91%81%EF%B8%8F" alt="Profile Views" />
+    <img src="https://komarev.com/ghpvc/?username=triwahyu45&style=flat-square&color=00F5D4&label=PROFILE+VIEWS" alt="Profile Views" />
   </p>
 
   <!-- CYBERPUNK WAVING HEADER BANNER -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,10,25,35&height=240&section=header&text=TRI%20WAHYU%20HANDOYO&fontSize=48&fontColor=ffffff&animation=twinkling&fontAlignY=36&desc=%E2%9A%A1%20Mechatronics%20Engineer%20%7C%20Robotics%20Innovator%20%7C%20AI%20%26%20Vision%20Developer%20%E2%9A%A1&descFontSize=17&descAlignY=64&descAlign=50" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,10,25,35&height=240&section=header&text=TRI%20WAHYU%20HANDOYO&fontSize=48&fontColor=ffffff&animation=twinkling&fontAlignY=36&desc=Mechatronics%20Engineer%20%7C%20Robotics%20Innovator%20%7C%20AI%20%26%20Vision%20Developer&descFontSize=17&descAlignY=64&descAlign=50" width="100%"/>
 
   <!-- TYPING SVG SUBHEADER -->
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=23&duration=2800&pause=900&color=00F5D4&center=true&vCenter=true&multiline=false&width=720&height=50&lines=🤖+Autonomous+Robotics+%26+Drivetrain+Kinematics;🥇+Puspresnas+National+Robotics+Champion+(KRTMI);👁️+Real-Time+Computer+Vision+(YOLO)+%26+AI+Agents;🛠️+Embedded+Systems+(ESP32%2FSTM32)+%26+CAD+Design;🚀+Welcome+to+WahyuAI+Cyberpunk+Lab!+✨" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=23&duration=2800&pause=900&color=00F5D4&center=true&vCenter=true&multiline=false&width=680&height=50&lines=Autonomous%20Mobile%20Robotics%20%26%20Kinematics;Puspresnas%20National%20Robotics%20Champion%20%28KRTMI%29;Real-Time%20Vision%20Tracking%20%28YOLO%29%20%26%20AI%20Agents;Embedded%20Systems%20%28ESP32%20/%20STM32%29%20%26%203D%20CAD;Welcome%20to%20WahyuAI%20Cyberpunk%20Lab%21" alt="Typing SVG" />
   </a>
 
   <!-- TOP BADGES & SOCIAL LINKS -->
   <p align="center">
     <a href="https://triwahyu45.github.io/Portofolio/" target="_blank">
-      <img src="https://img.shields.io/badge/🌐_3D_Live_Portfolio-00F5D4?style=for-the-badge&logoColor=black&labelColor=0D1117" alt="Portfolio" />
+      <img src="https://img.shields.io/badge/Live_3D_Portfolio-00F5D4?style=for-the-badge&logo=three.js&logoColor=black&labelColor=0D1117" alt="Portfolio" />
     </a>
     <a href="https://www.linkedin.com/in/tri-wahyu-handoyo-a5a40026a/" target="_blank">
       <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117" alt="LinkedIn" />
@@ -28,7 +28,7 @@
       <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117" alt="Email" />
     </a>
     <a href="https://sociabuzz.com/triwahyu45" target="_blank">
-      <img src="https://img.shields.io/badge/⚡_Sponsor_/_Donate-2563eb?style=for-the-badge&logo=cashapp&logoColor=white&labelColor=0D1117" alt="SociaBuzz" />
+      <img src="https://img.shields.io/badge/Sponsor_/_Donate-2563eb?style=for-the-badge&logo=cashapp&logoColor=white&labelColor=0D1117" alt="SociaBuzz" />
     </a>
   </p>
 
@@ -105,7 +105,7 @@ Developer Profile:
   <tr>
     <td width="50%" align="center">
       <a href="https://triwahyu45.github.io/Kinematics_Wheels/" target="_blank">
-        <img src="https://img.shields.io/badge/🎮_KineDrive_Simulator-00F5D4?style=for-the-badge&logoColor=black&labelColor=0D1117" /><br>
+        <img src="https://img.shields.io/badge/KineDrive_Simulator-00F5D4?style=for-the-badge&logo=speedtest&logoColor=black&labelColor=0D1117" /><br>
         <b>Robotics Kinematics Web Simulator</b>
       </a>
       <p align="left">High-performance 2D physics simulation for Mecanum, Omni 4W/3W, and Tank drivetrains. Features real-time Gamepad API support, field-centric mode, and oscilloscope telemetry graphs.</p>
@@ -113,7 +113,7 @@ Developer Profile:
     </td>
     <td width="50%" align="center">
       <a href="https://github.com/triwahyu45/Antigravity_WebRemote" target="_blank">
-        <img src="https://img.shields.io/badge/📱_Antigravity_WebRemote-3b82f6?style=for-the-badge&logoColor=white&labelColor=0D1117" /><br>
+        <img src="https://img.shields.io/badge/Antigravity_WebRemote-3b82f6?style=for-the-badge&logo=google&logoColor=white&labelColor=0D1117" /><br>
         <b>AI Mobile Companion & Web Controller</b>
       </a>
       <p align="left">Full-featured mobile companion for Google Antigravity with real-time DOM streaming, two-way injection via CDP, diff review viewer, and PWA standalone support.</p>
@@ -123,7 +123,7 @@ Developer Profile:
   <tr>
     <td width="50%" align="center">
       <a href="https://triwahyu45.github.io/Portofolio/" target="_blank">
-        <img src="https://img.shields.io/badge/🌐_3D_Interactive_Portfolio-ec4899?style=for-the-badge&logoColor=white&labelColor=0D1117" /><br>
+        <img src="https://img.shields.io/badge/3D_Interactive_Portfolio-ec4899?style=for-the-badge&logo=three.js&logoColor=white&labelColor=0D1117" /><br>
         <b>Engineering Portfolio & CAD Archive</b>
       </a>
       <p align="left">Cyberpunk glassmorphism personal website featuring WebGL 3D model inspector, national robotics competition achievements, and 7 CAD assemblies.</p>
@@ -131,7 +131,7 @@ Developer Profile:
     </td>
     <td width="50%" align="center">
       <a href="https://triwahyu45.github.io/ESP32-OLED-Video-Converter/" target="_blank">
-        <img src="https://img.shields.io/badge/📹_ESP32_OLED_Converter-8b5cf6?style=for-the-badge&logoColor=white&labelColor=0D1117" /><br>
+        <img src="https://img.shields.io/badge/ESP32_OLED_Converter-8b5cf6?style=for-the-badge&logo=youtube&logoColor=white&labelColor=0D1117" /><br>
         <b>Video to OLED Animation Studio</b>
       </a>
       <p align="left">Browser-based video-to-byte-array converter with Bayer 8x8 dithering algorithms and PROGMEM optimization for SSD1306 OLED displays.</p>
@@ -144,28 +144,11 @@ Developer Profile:
 
 ---
 
-### 🏆 GitHub Profile Trophies
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=triwahyu45&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4" alt="GitHub Trophies" />
-</div>
-
----
-
-### 📊 Live GitHub Activity & Statistics
+### 📈 Live GitHub Contribution & Activity Analytics
 
 <div align="center">
 
-  <img src="https://github-readme-stats.vercel.app/api?username=triwahyu45&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F5D4&icon_color=38BDF8&text_color=94A3B8" height="170" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=triwahyu45&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00F5D4&text_color=94A3B8" height="170" alt="Top Languages" />
-
-  <br>
-
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=triwahyu45&theme=tokyonight&hide_border=true&background=0D1117&ring=00F5D4&fire=EC4899&currStreakLabel=00F5D4" height="170" alt="GitHub Streak" />
-
-  <br><br>
-
-  <!-- ACTIVITY GRAPH -->
+  <!-- ACTIVITY GRAPH (FAST & STABLE CDN) -->
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=triwahyu45&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00F5D4&line=38BDF8&point=EC4899" width="95%" alt="Activity Graph" />
 
 </div>
