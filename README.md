@@ -38,22 +38,18 @@
 
 ---
 
-### 🌌 Engineering Persona & Identity
+### 💡 About Me & My AI-Driven Philosophy
 
-```yaml
-Developer Profile:
-  Name: Tri Wahyu Handoyo (WahyuAI)
-  Degree: S1 Pendidikan Teknik Mekatronika — Universitas Negeri Yogyakarta (UNY)
-  Affiliations:
-    - Kontingen Robotika UNY (Abhinaya UNY & Maestro EVO UNY)
-    - Pembimbing LKS Nasional (Bidang Pemrograman Robotika & IoT)
-  Core Domains:
-    - Autonomous Mobile Robots (Mecanum, Omni-Wheel, Swerve, Tank Kinematics)
-    - Edge AI & Vision Tracking (Ultralytics YOLOv8/YOLO11, OpenCV)
-    - Embedded Hardware (ESP32, STM32, Arduino, FreeRTOS, PlatformIO)
-    - 3D CAD & Mechanical Assemblies (Autodesk Inventor, Fusion 360, Three.js WebGL)
-  Philosophy: "Bridging mechanical precision with artificial intelligence."
-```
+> *"Hanya seorang pemuda yang memaksimalkan kecerdasan buatan (AI) untuk mewujudkan ide, riset, dan proyek teknologi yang saya sukai — dari robotika hingga simulator web interaktif."*
+
+🎓 **S1 Pendidikan Teknik Mekatronika — Universitas Negeri Yogyakarta (UNY)**.
+
+Saya percaya bahwa masa depan rekayasa adalah **kolaborasi antara intuisi manusia dan kecepatan AI**. Sebagian besar proyek, simulator, firmware, dan sistem kontrol di repositori ini dikembangkan dengan memanfaatkan bantuan **Google Antigravity AI**, dipadukan dengan pemahaman mendalam tentang kinematika robot, elektronika embedded, dan computer vision.
+
+- 🤖 **Young Maker & AI Explorer**: Memanfaatkan AI Agent untuk merancang arsitektur kode kompleks, optimasi algoritma, dan prototyping kilat.
+- 🏆 **National Robotics Champion**: Kontingen Robotika UNY (Juara 1 Regional & Juara 2 Nasional KRTMI 2024 Puspresnas Kemendikbudristek).
+- 👨‍🏫 **LKS National Mentor**: Berbagi ilmu dan membimbing generasi muda SMK di bidang sistem embedded & IoT.
+- 👁️ **Computer Vision & Hardware Enthusiast**: Menghubungkan model YOLOv8/11 dengan mikrokontroler ESP32/STM32 untuk pelacakan objek nyata.
 
 ---
 
@@ -85,6 +81,7 @@ Developer Profile:
 
   <!-- SPECIALIZED EMBEDDED & CAD BADGES -->
   <p align="center">
+    <img src="https://img.shields.io/badge/Antigravity%20AI%20Co--Pilot-4285F4?style=flat-square&logo=google&logoColor=white"/>
     <img src="https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white"/>
     <img src="https://img.shields.io/badge/STM32-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white"/>
     <img src="https://img.shields.io/badge/Autodesk%20Inventor-E51B24?style=flat-square&logo=autodesk&logoColor=white"/>
