@@ -12,7 +12,7 @@
 
   <!-- TRUE DIGITAL LED SCROLLER RUNNING TEXT (LEDSCROLLER.ORG STYLE) -->
   <div style="margin-top: 8px; margin-bottom: 12px;">
-    <img src="./assets/led_scroller.gif" width="100%" alt="Digital LED Scroller" />
+    <img src="https://raw.githubusercontent.com/triwahyu45/triwahyu45/main/assets/led_scroller.gif?v=2" width="100%" alt="Digital LED Scroller" />
   </div>
 
   <!-- PROFESSIONAL SOCIAL & PORTFOLIO BUTTONS (OFFICIAL BRAND COLORS) -->
