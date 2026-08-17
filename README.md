@@ -11,12 +11,17 @@
   </a>
 
   <!-- DYNAMIC RUNNING TEXT TICKER / MARQUEE -->
-  <div style="margin-top: 10px; margin-bottom: 15px;">
+  <div style="margin-top: 10px; margin-bottom: 8px;">
     <img src="./assets/running_marquee.svg" width="100%" alt="Running Ticker" />
   </div>
 
+  <!-- DYNAMIC TYPING SVG ANIMATION -->
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=22&duration=2600&pause=800&color=00F5D4&center=true&vCenter=true&multiline=false&width=720&height=45&lines=%E2%9A%A1%20Young%20Maker%20Building%20Autonomous%20Robots%20with%20AI;%F0%9F%A5%87%20Puspresnas%20National%20Robotics%20Champion%20%28KRTMI%29;%F0%9F%91%81%EF%B8%8F%20Real-Time%20Computer%20Vision%20%28YOLO%29%20%26%20AI%20Agents;%F0%9F%9B%A0%EF%B8%8F%20Embedded%20Systems%20%28ESP32%2FSTM32%29%20%26%203D%20CAD;%F0%9F%9A%80%20Powered%20by%20Human%20Creativity%20%26%20Antigravity%20AI%20%E2%9C%A8" alt="Typing SVG" />
+  </a>
+
   <!-- COMPREHENSIVE CONNECT & SOCIAL BADGES (BALANCED CONTRAST) -->
-  <p align="center">
+  <p align="center" style="margin-top: 12px;">
     <a href="https://triwahyu45.github.io/Portofolio/" target="_blank">
       <img src="https://img.shields.io/badge/3D_Portfolio-00C49F?style=for-the-badge&logo=three.js&logoColor=white&labelColor=161B22" alt="Portfolio" />
     </a>

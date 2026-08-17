@@ -22,12 +22,22 @@
   </defs>
 
   <style>
-    .ticker-container {
-      font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace;
+    @keyframes marqueeSweep {
+      0% {
+        transform: translate3d(1200px, 0, 0);
+      }
+      100% {
+        transform: translate3d(-2700px, 0, 0);
+      }
+    }
+    .marquee-text-anim {
+      font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
       font-size: 15px;
       font-weight: 700;
       letter-spacing: 2px;
       fill: url(#textGrad);
+      animation: marqueeSweep 20s linear infinite;
+      will-change: transform;
     }
   </style>
 
@@ -40,18 +50,11 @@
       <rect x="4" y="4" width="1192" height="40" rx="20"/>
     </clipPath>
 
-    <!-- Animated Running Text -->
-    <g class="ticker-container">
+    <!-- Animated Running Text via Pure CSS @keyframes -->
+    <g class="marquee-text-anim">
+      <!-- Duplicate text sequence to ensure continuous looping -->
       <text y="30" x="0">
-        <animateTransform
-          attributeName="transform"
-          type="translate"
-          from="1200 0"
-          to="-2600 0"
-          dur="22s"
-          repeatCount="indefinite"
-        />
-        ✨ JUST A YOUNG MAKER BUILDING WHAT I LOVE WITH AI &amp; ANTIGRAVITY  •  🤖 AUTONOMOUS ROBOTICS  •  👁️ COMPUTER VISION (YOLO)  •  🛠️ EMBEDDED SYSTEMS (ESP32/STM32)  •  🥇 JUARA 1 REGIONAL KRTMI 2024  •  🥈 JUARA 2 NASIONAL KRTMI 2024  •  👨‍🏫 PEMBIMBING LKS NASIONAL  •  🌐 3D THREE.JS SIMULATORS  •  🚀 POWERED BY ANTIGRAVITY AI  ✨
+        ✨ JUST A YOUNG MAKER BUILDING WHAT I LOVE WITH AI &amp; ANTIGRAVITY  •  🤖 AUTONOMOUS ROBOTICS  •  👁️ COMPUTER VISION (YOLOv8/11)  •  🛠️ EMBEDDED SYSTEMS (ESP32/STM32)  •  🥇 JUARA 1 REGIONAL KRTMI 2024  •  🥈 JUARA 2 NASIONAL KRTMI 2024  •  👨‍🏫 PEMBIMBING LKS NASIONAL  •  🌐 3D THREE.JS SIMULATORS  •  🚀 POWERED BY ANTIGRAVITY AI  ✨
       </text>
     </g>
   </g>
