@@ -5,13 +5,15 @@
     <img src="https://komarev.com/ghpvc/?username=triwahyu45&style=flat-square&color=00F5D4&label=PROFILE+VIEWS" alt="Profile Views" />
   </p>
 
-  <!-- CYBERPUNK WAVING HEADER BANNER -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,10,25,35&height=240&section=header&text=TRI%20WAHYU%20HANDOYO&fontSize=48&fontColor=ffffff&animation=twinkling&fontAlignY=36&desc=Mechatronics%20Engineer%20%7C%20Robotics%20Innovator%20%7C%20AI%20%26%20Vision%20Developer&descFontSize=17&descAlignY=64&descAlign=50" width="100%"/>
-
-  <!-- TYPING SVG SUBHEADER -->
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=23&duration=2800&pause=900&color=00F5D4&center=true&vCenter=true&multiline=false&width=680&height=50&lines=Autonomous%20Mobile%20Robotics%20%26%20Kinematics;Puspresnas%20National%20Robotics%20Champion%20%28KRTMI%29;Real-Time%20Vision%20Tracking%20%28YOLO%29%20%26%20AI%20Agents;Embedded%20Systems%20%28ESP32%20/%20STM32%29%20%26%203D%20CAD;Welcome%20to%20WahyuAI%20Cyberpunk%20Lab%21" alt="Typing SVG" />
+  <!-- CYBERPUNK SELF-HOSTED VECTOR HEADER -->
+  <a href="https://triwahyu45.github.io/Portofolio/" target="_blank">
+    <img src="https://raw.githubusercontent.com/triwahyu45/triwahyu45/main/assets/cyberpunk_header.svg" width="100%" alt="Tri Wahyu Handoyo - Mechatronics & Robotics" />
   </a>
+
+  <!-- DYNAMIC RUNNING TEXT TICKER / MARQUEE -->
+  <div style="margin-top: 10px; margin-bottom: 15px;">
+    <img src="https://raw.githubusercontent.com/triwahyu45/triwahyu45/main/assets/running_marquee.svg" width="100%" alt="Running Ticker" />
+  </div>
 
   <!-- TOP BADGES & SOCIAL LINKS -->
   <p align="center">
@@ -178,6 +180,5 @@ If my robotics simulators, CAD models, or open-source tools helped your project,
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,10,25,35&height=120&section=footer" width="100%"/>
-  <p><b>⚡ <i>"Engineering is where imagination meets physics and code."</i> — Tri Wahyu Handoyo</b> ⚡</p>
+  <img src="https://raw.githubusercontent.com/triwahyu45/triwahyu45/main/assets/footer_wave.svg" width="100%" alt="Footer Wave" />
 </div>
