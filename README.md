@@ -10,7 +10,7 @@
     <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F5D4,50:2563EB,100:1E1B4B&height=220&section=header&text=TRI%20WAHYU%20HANDOYO&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Mechatronics%20Engineer%20%7C%20Robotics%20Innovator%20%7C%20AI%20%26%20Vision%20Developer&descFontSize=16&descAlignY=62" width="100%" alt="Tri Wahyu Handoyo Header" />
   </a>
 
-  <!-- TRUE DIGITAL LED SCROLLER RUNNING TEXT (PORTFOLIO-AUTHENTIC TEXT) -->
+  <!-- TRUE DIGITAL LED SCROLLER RUNNING TEXT -->
   <div style="margin-top: 8px; margin-bottom: 12px;">
     <img src="assets/led_scroller.gif" width="100%" alt="Digital LED Scroller" />
   </div>
@@ -50,33 +50,181 @@
 
 ---
 
+### ⚡ Interactive System Diagnostics Terminal
+
+```bash
+wahyu@mechatronics-core:~$ ./diagnostics.sh --mode=full
+================================================================================
+>> OPERATOR       : Tri Wahyu Handoyo (WahyuAI)
+>> AFFILIATION    : Universitas Negeri Yogyakarta (S1 Pendidikan Teknik Mekatronika)
+>> CORE ROLES     : Lead Programmer @ Abhinaya UNY | LKS National Mentor | Creator @detronics.id
+>> AI ENGINE      : Google Antigravity AI Agent & Edge Neural Networks (YOLOv8/11)
+>> PRIMARY STACK  : C/C++ • Python • ESP32 • STM32 • Autodesk Inventor • Three.js WebGL
+>> CURRENT STATUS : 🟢 Available for Global Robotics Collaborations & Research
+================================================================================
+```
+
+---
+
 ### 💡 About Me & My AI-Driven Engineering Philosophy
 
-> *"Crafting intelligent robots, embedded systems, and computer vision tools by harmonizing engineering physics with Artificial Intelligence."*
+> *"Crafting intelligent robots, embedded telemetry systems, and computer vision pipelines by harmonizing mechanical engineering with Artificial Intelligence."*
 
 🎓 **Undergraduate in Mechatronics Engineering Education** at **Universitas Negeri Yogyakarta (UNY)**.
 
 I believe the future of engineering is **human creativity supercharged by AI intelligence**. Most of the autonomous robotics simulators, embedded telemetry pipelines, firmware, and WebGL tools in my repositories are engineered by blending hands-on mechatronics knowledge with **Google Antigravity AI** — achieving ultra-fast prototyping, robust architecture, and production-grade reliability.
 
 - 🤖 **Lead Robotics Programmer**: Kontingen Robotika Abhinaya UNY (🥇 1st Place Regional & 🥈 2nd Place National KRTMI 2024 by Puspresnas Kemendikbudristek).
-- 👁️ **Computer Vision & AI**: Deploying real-time YOLOv8/11 neural networks to edge hardware (ESP32/STM32) for live object detection and kinematics tracking.
+- 👁️ **Computer Vision & Edge AI**: Deploying real-time YOLOv8/11 neural networks to edge hardware (ESP32/STM32) for live object detection and kinematics tracking.
 - 👨‍🏫 **National Vocational Mentor**: Guiding young robotics engineers for the National Vocational Skills Competition (LKS) in Embedded Systems & IoT.
 - 🌐 **Creator @detronics.id**: Tech education content creator reaching 100K+ learners across TikTok, Instagram, and YouTube.
 
 ---
 
-### 🏆 Honors & National Robotics Achievements
+### 🌟 Featured 3D CAD & Robotics Hardware Showcase
 
 <div align="center">
 
-| Honor / Award | Organizing Body | Role & Engineering Contribution |
-| :--- | :--- | :--- |
-| 🥇 **1st Place Champion (Regional I)** | **KRTMI 2024 (BPTI Puspresnas Kemendikbudristek)** | Lead Robotics Programmer — Team Abhinaya UNY |
-| 🥈 **2nd Place Runner-Up (National)** | **KRTMI 2024 (BPTI Puspresnas Kemendikbudristek)** | Drivetrain Kinematics & Autonomous Motion Control |
-| 🏅 **National Finalist** | **KRTMI 2023 (USM Semarang)** | Autonomous Sensor Navigation & Telemetry Developer |
-| 👨‍🏫 **National LKS Mentor** | **SMK National Skills Competition (2025/2026)** | National Mentor for Embedded Systems, IoT & Robotics |
+<table>
+  <tr>
+    <td width="33%" align="center">
+      <a href="https://triwahyu45.github.io/Portofolio/#cad-3d-viewer" target="_blank">
+        <img src="assets/robot_transporter.png" width="260px" /><br><br>
+        <b>🤖 Robot Transporter (Technocorner UGM)</b>
+      </a>
+      <p align="left"><small>Mecanum drivetrain with motorized gripper mechanism, dual TB6612FNG drivers, and PID position control.</small></p>
+      <code>Autodesk Inventor</code> • <code>Mecanum 4W</code> • <code>ESP32</code>
+    </td>
+    <td width="33%" align="center">
+      <a href="https://triwahyu45.github.io/Portofolio/#cad-3d-viewer" target="_blank">
+        <img src="assets/robot_inesco.png" width="260px" /><br><br>
+        <b>🏆 Robot Inesco (1st Place Essay)</b>
+      </a>
+      <p align="left"><small>Autonomous agricultural sorting and transport robot with multi-sensor telemetry and custom chassis geometry.</small></p>
+      <code>CAD Assembly</code> • <code>Agri-Robotics</code> • <code>Sensors</code>
+    </td>
+    <td width="33%" align="center">
+      <a href="https://triwahyu45.github.io/Portofolio/#cad-3d-viewer" target="_blank">
+        <img src="assets/robot_humanoid.png" width="260px" /><br><br>
+        <b>🦾 Bipedal Humanoid Assembly</b>
+      </a>
+      <p align="left"><small>Multi-DOF servo articulated bipedal robotics assembly designed for motion capture and gait simulation.</small></p>
+      <code>SolidWorks</code> • <code>Servo 12-DOF</code> • <code>Kinematics</code>
+    </td>
+  </tr>
+</table>
 
 </div>
+
+---
+
+### 🎮 Live Interactive Web Simulators
+
+<div align="center">
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <a href="https://triwahyu45.github.io/Kinematics_Wheels/" target="_blank">
+        <img src="https://img.shields.io/badge/KineDrive_Simulator-0284C7?style=for-the-badge&logo=speedtest&logoColor=white" /><br>
+        <b>🚀 2D Robotics Kinematics Web Simulator</b>
+      </a>
+      <p align="left">High-performance 2D physics simulation for Mecanum, Omni 4W/3W, and Tank drivetrains. Features real-time Gamepad API support, field-centric mode, and oscilloscope telemetry graphs.</p>
+      <code>HTML5 Canvas</code> • <code>Physics Kinematics</code> • <code>Gamepad API</code>
+    </td>
+    <td width="50%" align="center">
+      <a href="https://github.com/triwahyu45/Antigravity_WebRemote" target="_blank">
+        <img src="https://img.shields.io/badge/Antigravity_WebRemote-2563EB?style=for-the-badge&logo=google&logoColor=white" /><br>
+        <b>📱 AI Mobile Companion & Web Controller</b>
+      </a>
+      <p align="left">Full-featured mobile companion for Google Antigravity with real-time DOM streaming, two-way injection via CDP, diff review viewer, and PWA standalone support.</p>
+      <code>FastAPI</code> • <code>WebSocket</code> • <code>CDP</code> • <code>PWA</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <a href="https://triwahyu45.github.io/Portofolio/" target="_blank">
+        <img src="https://img.shields.io/badge/3D_Interactive_Portfolio-6366F1?style=for-the-badge&logo=three.js&logoColor=white" /><br>
+        <b>🌐 3D Interactive WebGL Portfolio</b>
+      </a>
+      <p align="left">Cyberpunk glassmorphism personal website featuring WebGL 3D model inspector, national robotics competition achievements, and 7 CAD assemblies.</p>
+      <code>WebGL</code> • <code>Three.js</code> • <code>Autodesk Inventor</code>
+    </td>
+    <td width="50%" align="center">
+      <a href="https://triwahyu45.github.io/ESP32-OLED-Video-Converter/" target="_blank">
+        <img src="https://img.shields.io/badge/ESP32_OLED_Converter-7C3AED?style=for-the-badge&logo=youtube&logoColor=white" /><br>
+        <b>📺 Video to OLED Animation Studio</b>
+      </a>
+      <p align="left">Browser-based video-to-byte-array converter with Bayer 8x8 dithering algorithms and PROGMEM optimization for SSD1306 OLED displays.</p>
+      <code>Bayer Dither</code> • <code>PROGMEM</code> • <code>SSD1306</code>
+    </td>
+  </tr>
+</table>
+
+</div>
+
+---
+
+### 📂 Interactive Deep Dives & Engineering Blueprints
+
+<details>
+<summary><b>🤖 [EXPAND] Drivetrain Kinematics & Control Matrix</b></summary>
+<br>
+
+```math
+\begin{bmatrix}
+\omega_1 \\
+\omega_2 \\
+\omega_3 \\
+\omega_4
+\end{bmatrix}
+=
+\frac{1}{R}
+\begin{bmatrix}
+1 & -1 & -(L_x + L_y) \\
+1 &  1 &  (L_x + L_y) \\
+1 &  1 & -(L_x + L_y) \\
+1 & -1 &  (L_x + L_y)
+\end{bmatrix}
+\begin{bmatrix}
+v_x \\
+v_y \\
+\omega_z
+\end{bmatrix}
+```
+
+* **Omnidirectional Motion**: 4-wheel independent inverse kinematic resolution for omnidirectional holonomic locomotion.
+* **PID Feedback Loop**: Discrete velocity & position error correction updated at 100 Hz via hardware timer interrupts on ESP32/STM32.
+* **Field-Centric Gyro Compensation**: Real-time yaw integration using MPU6050 DMP to decouple robot heading from field orientation.
+
+</details>
+
+<details>
+<summary><b>🏆 [EXPAND] Full National Competition Honours & Awards</b></summary>
+<br>
+
+| Award / Honor | Event / Competition | Organizer |
+| :--- | :--- | :--- |
+| 🥇 **Juara 1 Regional I Wilayah** | Kontes Robot Tematik Indonesia (KRTMI) 2024 | BPTI Puspresnas Kemendikbudristek |
+| 🥈 **Juara 2 Tingkat Nasional** | Kontes Robot Tematik Indonesia (KRTMI) 2024 | BPTI Puspresnas Kemendikbudristek |
+| 🏅 **Finalis Tingkat Nasional** | Kontes Robot Tematik Indonesia (KRTMI) 2023 | USM Semarang & Puspresnas |
+| 🥇 **Juara 1 Lomba Karya Tulis Esai** | INESCO 2025 | Universitas Muhammadiyah Purwokerto |
+| 🥇 **Juara 1 National Essay** | HIMEPA 2025 | Universitas Tanjungpura Pontianak |
+| 🥈 **Juara 2 National Paper** | PANCO 2025 | Himpunan Mahasiswa Perkapalan |
+| 👨‍🏫 **Pembimbing LKS Nasional** | Lomba Kompetensi Siswa SMK (2025/2026) | Kemendikbudristek RI (IoT & Robotika) |
+
+</details>
+
+<details>
+<summary><b>🛠️ [EXPAND] Hardware Arsenal & Development Lab</b></summary>
+<br>
+
+* **Microcontrollers**: ESP32-S3 / ESP32-WROOM, STM32F401 / STM32F411 BlackPill, Arduino Mega 2560, Raspberry Pi 5.
+* **Motor Drivers & Actuators**: Dual Driver TB6612FNG, BTS7960 43A High-Power H-Bridge, MG996R Metal Gear Servos, Coreless DC Encoders.
+* **Vision & Sensors**: Kinect v1.8 Depth Sensor, AS5600 12-bit Magnetic Rotary Encoder, MPU6050 6-DOF IMU, VL53L0X ToF Laser Distance Sensor.
+* **CAD & Prototyping**: Autodesk Inventor Pro, Fusion 360, KiCad PCB EDA, Creality Ender 3D Printing, Wokwi Circuit Simulator.
+
+</details>
 
 ---
 
@@ -103,53 +251,6 @@ I believe the future of engineering is **human creativity supercharged by AI int
     <img src="https://img.shields.io/badge/YOLOv8%20%2F%2011-00FFFF?style=flat-square&logo=ultralytics&logoColor=black"/>
     <img src="https://img.shields.io/badge/PID%20Control-00F5D4?style=flat-square&logoColor=black"/>
   </p>
-
-</div>
-
----
-
-### 🌟 Featured Robotics Projects & Live Web Simulators
-
-<div align="center">
-
-<table>
-  <tr>
-    <td width="50%" align="center">
-      <a href="https://triwahyu45.github.io/Kinematics_Wheels/" target="_blank">
-        <img src="https://img.shields.io/badge/KineDrive_Simulator-0284C7?style=for-the-badge&logo=speedtest&logoColor=white" /><br>
-        <b>Robotics Kinematics Web Simulator</b>
-      </a>
-      <p align="left">High-performance 2D physics simulation for Mecanum, Omni 4W/3W, and Tank drivetrains. Features real-time Gamepad API support, field-centric mode, and oscilloscope telemetry graphs.</p>
-      <code>HTML5 Canvas</code> • <code>Physics Kinematics</code> • <code>Gamepad API</code>
-    </td>
-    <td width="50%" align="center">
-      <a href="https://github.com/triwahyu45/Antigravity_WebRemote" target="_blank">
-        <img src="https://img.shields.io/badge/Antigravity_WebRemote-2563EB?style=for-the-badge&logo=google&logoColor=white" /><br>
-        <b>AI Mobile Companion & Web Controller</b>
-      </a>
-      <p align="left">Full-featured mobile companion for Google Antigravity with real-time DOM streaming, two-way injection via CDP, diff review viewer, and PWA standalone support.</p>
-      <code>FastAPI</code> • <code>WebSocket</code> • <code>CDP</code> • <code>PWA</code>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center">
-      <a href="https://triwahyu45.github.io/Portofolio/" target="_blank">
-        <img src="https://img.shields.io/badge/3D_Interactive_Portfolio-6366F1?style=for-the-badge&logo=three.js&logoColor=white" /><br>
-        <b>Engineering Portfolio & CAD Archive</b>
-      </a>
-      <p align="left">Cyberpunk glassmorphism personal website featuring WebGL 3D model inspector, national robotics competition achievements, and 7 CAD assemblies.</p>
-      <code>WebGL</code> • <code>Three.js</code> • <code>Autodesk Inventor</code>
-    </td>
-    <td width="50%" align="center">
-      <a href="https://triwahyu45.github.io/ESP32-OLED-Video-Converter/" target="_blank">
-        <img src="https://img.shields.io/badge/ESP32_OLED_Converter-7C3AED?style=for-the-badge&logo=youtube&logoColor=white" /><br>
-        <b>Video to OLED Animation Studio</b>
-      </a>
-      <p align="left">Browser-based video-to-byte-array converter with Bayer 8x8 dithering algorithms and PROGMEM optimization for SSD1306 OLED displays.</p>
-      <code>Bayer Dither</code> • <code>PROGMEM</code> • <code>SSD1306</code>
-    </td>
-  </tr>
-</table>
 
 </div>
 
@@ -194,15 +295,15 @@ If my robotics simulators, CAD models, or open-source tools helped your project,
 <div align="center">
 
   <a href="https://sociabuzz.com/triwahyu45" target="_blank">
-    <img src="https://img.shields.io/badge/SociaBuzz-2563EB?style=for-the-badge&logo=cashapp&logoColor=white" alt="SociaBuzz" />
+    <img src="https://img.shields.io/badge/SociaBuzz-2563EB?style=for-the-badge&logo=cashapp&logoColor=white&label=Global%20%2F%20PayPal%20%2F%20QRIS" alt="SociaBuzz" />
   </a>
   &nbsp;
   <a href="https://saweria.co/triwahyu45" target="_blank">
-    <img src="https://img.shields.io/badge/Saweria-E11D48?style=for-the-badge&logo=coffeescript&logoColor=white" alt="Saweria" />
+    <img src="https://img.shields.io/badge/Saweria-E11D48?style=for-the-badge&logo=coffeescript&logoColor=white&label=QRIS%20%2F%20E--Wallet" alt="Saweria" />
   </a>
   &nbsp;
   <a href="https://trakteer.id/triwahyu45" target="_blank">
-    <img src="https://img.shields.io/badge/Trakteer-BE123C?style=for-the-badge&logo=trakteer&logoColor=white" alt="Trakteer" />
+    <img src="https://img.shields.io/badge/Trakteer-BE123C?style=for-the-badge&logo=trakteer&logoColor=white&label=Traktir%20Kopi" alt="Trakteer" />
   </a>
 
 </div>
