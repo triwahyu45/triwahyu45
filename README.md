@@ -5,38 +5,44 @@
     <img src="https://komarev.com/ghpvc/?username=triwahyu45&style=flat-square&color=00F5D4&label=PROFILE+VIEWS" alt="Profile Views" />
   </p>
 
-  <!-- CYBERPUNK WAVING BANNER -->
+  <!-- CYBERPUNK WAVING HEADER BANNER -->
   <a href="https://triwahyu45.github.io/Portofolio/" target="_blank">
     <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F5D4,50:2563EB,100:1E1B4B&height=220&section=header&text=TRI%20WAHYU%20HANDOYO&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Mechatronics%20Engineer%20%7C%20Robotics%20Innovator%20%7C%20AI%20%26%20Vision%20Developer&descFontSize=16&descAlignY=62" width="100%" alt="Tri Wahyu Handoyo Header" />
   </a>
 
-  <!-- TRUE DIGITAL LED SCROLLER RUNNING TEXT (LEDSCROLLER.ORG STYLE) -->
+  <!-- TRUE DIGITAL LED SCROLLER RUNNING TEXT (PORTFOLIO-AUTHENTIC TEXT) -->
   <div style="margin-top: 8px; margin-bottom: 12px;">
-    <img src="https://raw.githubusercontent.com/triwahyu45/triwahyu45/main/assets/led_scroller.gif?v=2" width="100%" alt="Digital LED Scroller" />
+    <img src="assets/led_scroller.gif" width="100%" alt="Digital LED Scroller" />
   </div>
 
-  <!-- PROFESSIONAL SOCIAL & PORTFOLIO BUTTONS (OFFICIAL BRAND COLORS) -->
+  <!-- OFFICIAL SOLID BRAND SOCIAL BUTTONS (HIGH CONTRAST WHITE TEXT) -->
   <p align="center" style="margin-top: 10px;">
     <a href="https://triwahyu45.github.io/Portofolio/" target="_blank">
-      <img src="https://img.shields.io/badge/3D_Portfolio-00F5D4?style=for-the-badge&logo=three.js&logoColor=black&labelColor=0D1117" alt="Portfolio" />
+      <img src="https://img.shields.io/badge/3D_Portfolio-111827?style=for-the-badge&logo=three.js&logoColor=00F5D4" alt="Portfolio" />
     </a>
     <a href="https://www.linkedin.com/in/tri-wahyu-handoyo-a5a40026a/" target="_blank">
-      <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117" alt="LinkedIn" />
+      <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
     </a>
     <a href="https://instagram.com/triwahyu45" target="_blank">
-      <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=0D1117" alt="Instagram" />
+      <img src="https://img.shields.io/badge/Instagram-E1306C?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+    </a>
+    <a href="https://www.youtube.com/@TriWahyu45" target="_blank">
+      <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" />
+    </a>
+    <a href="https://www.tiktok.com/@triwahyu45" target="_blank">
+      <img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok" />
     </a>
     <a href="https://instagram.com/detronics.id" target="_blank">
-      <img src="https://img.shields.io/badge/Detronics.ID-6366F1?style=for-the-badge&logo=instagram&logoColor=white&labelColor=0D1117" alt="Detronics ID" />
+      <img src="https://img.shields.io/badge/Detronics.ID-4F46E5?style=for-the-badge&logo=espressif&logoColor=white" alt="Detronics ID" />
     </a>
     <a href="https://linktr.ee/triwahyu45" target="_blank">
-      <img src="https://img.shields.io/badge/Linktree-10B981?style=for-the-badge&logo=linktree&logoColor=white&labelColor=0D1117" alt="Linktree" />
+      <img src="https://img.shields.io/badge/Linktree-22C55E?style=for-the-badge&logo=linktree&logoColor=white" alt="Linktree" />
     </a>
     <a href="mailto:triwahyu45@gmail.com">
-      <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117" alt="Email" />
+      <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
     </a>
     <a href="https://sociabuzz.com/triwahyu45" target="_blank">
-      <img src="https://img.shields.io/badge/Sponsor_/_Donate-2563EB?style=for-the-badge&logo=cashapp&logoColor=white&labelColor=0D1117" alt="SociaBuzz" />
+      <img src="https://img.shields.io/badge/Sponsor_/_Donate-2563EB?style=for-the-badge&logo=cashapp&logoColor=white" alt="SociaBuzz" />
     </a>
   </p>
 
@@ -46,16 +52,16 @@
 
 ### 💡 About Me & My AI-Driven Engineering Philosophy
 
-> *"Just a passionate young maker harnessing the power of Artificial Intelligence to turn ambitious robotics, computer vision, and engineering ideas into reality."*
+> *"Crafting intelligent robots, embedded systems, and computer vision tools by harmonizing engineering physics with Artificial Intelligence."*
 
 🎓 **Undergraduate in Mechatronics Engineering Education** at **Universitas Negeri Yogyakarta (UNY)**.
 
 I believe the future of engineering is **human creativity supercharged by AI intelligence**. Most of the autonomous robotics simulators, embedded telemetry pipelines, firmware, and WebGL tools in my repositories are engineered by blending hands-on mechatronics knowledge with **Google Antigravity AI** — achieving ultra-fast prototyping, robust architecture, and production-grade reliability.
 
-- 🤖 **AI-Empowered Maker**: Leveraging autonomous AI Agents to design complex mechanical kinematics, PID control loops, and high-performance web simulators.
-- 🏆 **National Robotics Champion**: UNY Robotics Contingent (🥇 1st Place Regional & 🥈 2nd Place National KRTMI 2024 by Ministry of Education & Puspresnas RI).
+- 🤖 **Lead Robotics Programmer**: Kontingen Robotika Abhinaya UNY (🥇 1st Place Regional & 🥈 2nd Place National KRTMI 2024 by Puspresnas Kemendikbudristek).
+- 👁️ **Computer Vision & AI**: Deploying real-time YOLOv8/11 neural networks to edge hardware (ESP32/STM32) for live object detection and kinematics tracking.
 - 👨‍🏫 **National Vocational Mentor**: Guiding young robotics engineers for the National Vocational Skills Competition (LKS) in Embedded Systems & IoT.
-- 👁️ **Computer Vision & Hardware Enthusiast**: Deploying real-time YOLOv8/11 neural networks to edge hardware (ESP32/STM32) for live object detection and tracking.
+- 🌐 **Creator @detronics.id**: Tech education content creator reaching 100K+ learners across TikTok, Instagram, and YouTube.
 
 ---
 
@@ -87,7 +93,7 @@ I believe the future of engineering is **human creativity supercharged by AI int
 
   <!-- SPECIALIZED EMBEDDED & CAD BADGES -->
   <p align="center">
-    <img src="https://img.shields.io/badge/Antigravity%20AI%20Co--Pilot-4285F4?style=flat-square&logo=google&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Antigravity%20AI-4285F4?style=flat-square&logo=google&logoColor=white"/>
     <img src="https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white"/>
     <img src="https://img.shields.io/badge/STM32-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white"/>
     <img src="https://img.shields.io/badge/Autodesk%20Inventor-E51B24?style=flat-square&logo=autodesk&logoColor=white"/>
@@ -110,7 +116,7 @@ I believe the future of engineering is **human creativity supercharged by AI int
   <tr>
     <td width="50%" align="center">
       <a href="https://triwahyu45.github.io/Kinematics_Wheels/" target="_blank">
-        <img src="https://img.shields.io/badge/KineDrive_Simulator-0284C7?style=for-the-badge&logo=speedtest&logoColor=white&labelColor=0D1117" /><br>
+        <img src="https://img.shields.io/badge/KineDrive_Simulator-0284C7?style=for-the-badge&logo=speedtest&logoColor=white" /><br>
         <b>Robotics Kinematics Web Simulator</b>
       </a>
       <p align="left">High-performance 2D physics simulation for Mecanum, Omni 4W/3W, and Tank drivetrains. Features real-time Gamepad API support, field-centric mode, and oscilloscope telemetry graphs.</p>
@@ -118,7 +124,7 @@ I believe the future of engineering is **human creativity supercharged by AI int
     </td>
     <td width="50%" align="center">
       <a href="https://github.com/triwahyu45/Antigravity_WebRemote" target="_blank">
-        <img src="https://img.shields.io/badge/Antigravity_WebRemote-2563EB?style=for-the-badge&logo=google&logoColor=white&labelColor=0D1117" /><br>
+        <img src="https://img.shields.io/badge/Antigravity_WebRemote-2563EB?style=for-the-badge&logo=google&logoColor=white" /><br>
         <b>AI Mobile Companion & Web Controller</b>
       </a>
       <p align="left">Full-featured mobile companion for Google Antigravity with real-time DOM streaming, two-way injection via CDP, diff review viewer, and PWA standalone support.</p>
@@ -128,7 +134,7 @@ I believe the future of engineering is **human creativity supercharged by AI int
   <tr>
     <td width="50%" align="center">
       <a href="https://triwahyu45.github.io/Portofolio/" target="_blank">
-        <img src="https://img.shields.io/badge/3D_Interactive_Portfolio-6366F1?style=for-the-badge&logo=three.js&logoColor=white&labelColor=0D1117" /><br>
+        <img src="https://img.shields.io/badge/3D_Interactive_Portfolio-6366F1?style=for-the-badge&logo=three.js&logoColor=white" /><br>
         <b>Engineering Portfolio & CAD Archive</b>
       </a>
       <p align="left">Cyberpunk glassmorphism personal website featuring WebGL 3D model inspector, national robotics competition achievements, and 7 CAD assemblies.</p>
@@ -136,7 +142,7 @@ I believe the future of engineering is **human creativity supercharged by AI int
     </td>
     <td width="50%" align="center">
       <a href="https://triwahyu45.github.io/ESP32-OLED-Video-Converter/" target="_blank">
-        <img src="https://img.shields.io/badge/ESP32_OLED_Converter-7C3AED?style=for-the-badge&logo=youtube&logoColor=white&labelColor=0D1117" /><br>
+        <img src="https://img.shields.io/badge/ESP32_OLED_Converter-7C3AED?style=for-the-badge&logo=youtube&logoColor=white" /><br>
         <b>Video to OLED Animation Studio</b>
       </a>
       <p align="left">Browser-based video-to-byte-array converter with Bayer 8x8 dithering algorithms and PROGMEM optimization for SSD1306 OLED displays.</p>
@@ -160,6 +166,8 @@ Feel free to connect with me for robotics collaborations, open-source discussion
 | 🌐 **Live 3D Portfolio** | [**triwahyu45.github.io/Portofolio**](https://triwahyu45.github.io/Portofolio/) | WebGL Interactive Showcase & 7 CAD Assemblies |
 | 💼 **LinkedIn** | [**Tri Wahyu Handoyo**](https://www.linkedin.com/in/tri-wahyu-handoyo-a5a40026a/) | Professional Network & Industry Collaborations |
 | 📸 **Instagram** | [**@triwahyu45**](https://instagram.com/triwahyu45) | Personal Engineering Work & Life Updates |
+| 📹 **YouTube** | [**@TriWahyu45**](https://www.youtube.com/@TriWahyu45) | Robotics Project Demos & Video Tutorials |
+| 📱 **TikTok** | [**@triwahyu45**](https://www.tiktok.com/@triwahyu45) | Short Tech Tips & Behind-the-Scenes Builds |
 | ⚡ **Tech Studio** | [**@detronics.id**](https://instagram.com/detronics.id) | Electronics, IoT & Custom Hardware Works |
 | 🌳 **Linktree Hub** | [**linktr.ee/triwahyu45**](https://linktr.ee/triwahyu45) | Quick Central Directory to All Links |
 | ✉️ **Direct Email** | [**triwahyu45@gmail.com**](mailto:triwahyu45@gmail.com) | Collaboration & Mentoring Inquiries |
@@ -186,15 +194,15 @@ If my robotics simulators, CAD models, or open-source tools helped your project,
 <div align="center">
 
   <a href="https://sociabuzz.com/triwahyu45" target="_blank">
-    <img src="https://img.shields.io/badge/SociaBuzz-2563EB?style=for-the-badge&logo=cashapp&logoColor=white&label=Global%20%2F%20PayPal%20%2F%20QRIS" alt="SociaBuzz" />
+    <img src="https://img.shields.io/badge/SociaBuzz-2563EB?style=for-the-badge&logo=cashapp&logoColor=white" alt="SociaBuzz" />
   </a>
   &nbsp;
   <a href="https://saweria.co/triwahyu45" target="_blank">
-    <img src="https://img.shields.io/badge/Saweria-E11D48?style=for-the-badge&logo=coffeescript&logoColor=white&label=QRIS%20%2F%20E--Wallet" alt="Saweria" />
+    <img src="https://img.shields.io/badge/Saweria-E11D48?style=for-the-badge&logo=coffeescript&logoColor=white" alt="Saweria" />
   </a>
   &nbsp;
   <a href="https://trakteer.id/triwahyu45" target="_blank">
-    <img src="https://img.shields.io/badge/Trakteer-BE123C?style=for-the-badge&logo=trakteer&logoColor=white&label=Traktir%20Kopi" alt="Trakteer" />
+    <img src="https://img.shields.io/badge/Trakteer-BE123C?style=for-the-badge&logo=trakteer&logoColor=white" alt="Trakteer" />
   </a>
 
 </div>
