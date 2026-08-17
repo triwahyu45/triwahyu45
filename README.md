@@ -10,9 +10,11 @@
     <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F5D4,50:2563EB,100:1E1B4B&height=220&section=header&text=TRI%20WAHYU%20HANDOYO&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Mechatronics%20Engineer%20%7C%20Robotics%20Innovator%20%7C%20AI%20%26%20Vision%20Developer&descFontSize=16&descAlignY=62" width="100%" alt="Tri Wahyu Handoyo Header" />
   </a>
 
-  <!-- TRUE DIGITAL LED SCROLLER RUNNING TEXT -->
-  <div style="margin-top: 8px; margin-bottom: 12px;">
-    <img src="assets/led_scroller.gif" width="100%" alt="Digital LED Scroller" />
+  <!-- DYNAMIC RUNNING & TYPING ANIMATION (PORTFOLIO-AUTHENTIC STATEMENTS) -->
+  <div style="margin-top: 5px; margin-bottom: 12px;">
+    <a href="https://git.io/typing-svg">
+      <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=23&duration=2600&pause=800&color=00F5D4&center=true&vCenter=true&multiline=false&width=780&height=50&lines=%E2%9A%A1%20Crafting%20Intelligent%20Robots%20%26%20Embedded%20Systems;%F0%9F%A5%87%20Programmer%20Utama%20Abhinaya%20UNY%20%28Juara%201%20%26%202%20KRTMI%29;%F0%9F%91%81%EF%B8%8F%20Computer%20Vision%20AI%20%28YOLOv8%2F11%20%26%20OpenCV%29;%F0%9F%9B%A0%EF%B8%8F%20Embedded%20IoT%20%28ESP32%2FSTM32%29%20%26%203D%20CAD%20Inventor;%F0%9F%8C%90%20Creator%20%40detronics.id%20%28100K%2B%20Reach%29;%F0%9F%9A%80%20Powered%20by%20Human%20Creativity%20%26%20Antigravity%20AI%20%E2%9C%A8" alt="Typing Animation" />
+    </a>
   </div>
 
   <!-- OFFICIAL SOLID BRAND SOCIAL BUTTONS (HIGH CONTRAST WHITE TEXT) -->
@@ -89,7 +91,7 @@ I believe the future of engineering is **human creativity supercharged by AI int
   <tr>
     <td width="33%" align="center">
       <a href="https://triwahyu45.github.io/Portofolio/#cad-3d-viewer" target="_blank">
-        <img src="assets/robot_transporter.png" width="260px" /><br><br>
+        <img src="https://triwahyu45.github.io/Portofolio/assets/cad/render_transporter_technocorner.png" width="260px" /><br><br>
         <b>🤖 Robot Transporter (Technocorner UGM)</b>
       </a>
       <p align="left"><small>Mecanum drivetrain with motorized gripper mechanism, dual TB6612FNG drivers, and PID position control.</small></p>
@@ -97,7 +99,7 @@ I believe the future of engineering is **human creativity supercharged by AI int
     </td>
     <td width="33%" align="center">
       <a href="https://triwahyu45.github.io/Portofolio/#cad-3d-viewer" target="_blank">
-        <img src="assets/robot_inesco.png" width="260px" /><br><br>
+        <img src="https://triwahyu45.github.io/Portofolio/assets/cad/render_inesco.png" width="260px" /><br><br>
         <b>🏆 Robot Inesco (1st Place Essay)</b>
       </a>
       <p align="left"><small>Autonomous agricultural sorting and transport robot with multi-sensor telemetry and custom chassis geometry.</small></p>
@@ -105,7 +107,7 @@ I believe the future of engineering is **human creativity supercharged by AI int
     </td>
     <td width="33%" align="center">
       <a href="https://triwahyu45.github.io/Portofolio/#cad-3d-viewer" target="_blank">
-        <img src="assets/robot_humanoid.png" width="260px" /><br><br>
+        <img src="https://triwahyu45.github.io/Portofolio/assets/cad/render_humanoid.png" width="260px" /><br><br>
         <b>🦾 Bipedal Humanoid Assembly</b>
       </a>
       <p align="left"><small>Multi-DOF servo articulated bipedal robotics assembly designed for motion capture and gait simulation.</small></p>
