@@ -7,7 +7,7 @@
 
   <!-- CYBERPUNK WAVING HEADER BANNER -->
   <a href="https://triwahyu45.github.io/Portofolio/" target="_blank">
-    <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F5D4,50:2563EB,100:1E1B4B&height=220&section=header&text=TRI%20WAHYU%20HANDOYO&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Mechatronics%20Engineer%20%7C%20Robotics%20Innovator%20%7C%20AI%20%26%20Vision%20Developer&descFontSize=16&descAlignY=62" width="100%" alt="Tri Wahyu Handoyo Header" />
+    <img src="./assets/cyberpunk_header.svg" width="100%" alt="Tri Wahyu Handoyo Header" />
   </a>
 
   <!-- DYNAMIC RUNNING & TYPING ANIMATION -->
@@ -323,5 +323,5 @@ If my robotics simulators, CAD models, or open-source tools helped your project,
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F5D4,50:2563EB,100:1E1B4B&height=120&section=footer" width="100%" alt="Footer Wave" />
+  <img src="./assets/footer_wave.svg" width="100%" alt="Footer Wave" />
 </div>
