@@ -7,7 +7,7 @@
 
   <!-- CYBERPUNK WAVING HEADER BANNER -->
   <a href="https://triwahyu45.github.io/Portofolio/" target="_blank">
-    <img src="./assets/cyberpunk_header.svg" width="100%" alt="Tri Wahyu Header" />
+    <img src="https://raw.githubusercontent.com/triwahyu45/triwahyu45/main/assets/cyberpunk_header.svg?v=3" width="100%" alt="Tri Wahyu Header" />
   </a>
 
   <!-- DYNAMIC RUNNING & TYPING ANIMATION -->
