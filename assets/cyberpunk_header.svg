@@ -121,7 +121,7 @@
   <rect x="0" y="0" width="1200" height="4" fill="url(#neonCyan)" filter="url(#glow)"/>
 
   <!-- Main Title & Subtitle -->
-  <text x="600" y="95" class="title-text">TRI WAHYU HANDOYO</text>
+  <text x="600" y="95" class="title-text">TRI WAHYU</text>
   <text x="600" y="138" class="subtitle-text">⚡ MECHATRONICS ENGINEER • ROBOTICS INNOVATOR • AI &amp; VISION DEVELOPER ⚡</text>
 
   <!-- Decorative Corner Accents -->

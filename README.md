@@ -7,7 +7,7 @@
 
   <!-- CYBERPUNK WAVING HEADER BANNER -->
   <a href="https://triwahyu45.github.io/Portofolio/" target="_blank">
-    <img src="./assets/cyberpunk_header.svg" width="100%" alt="Tri Wahyu Handoyo Header" />
+    <img src="./assets/cyberpunk_header.svg" width="100%" alt="Tri Wahyu Header" />
   </a>
 
   <!-- DYNAMIC RUNNING & TYPING ANIMATION -->
@@ -57,7 +57,7 @@
 ```bash
 wahyu@mechatronics-core:~$ ./diagnostics.sh --mode=full
 ================================================================================
->> OPERATOR       : Tri Wahyu Handoyo (WahyuAI)
+>> OPERATOR       : Tri Wahyu (WahyuAI)
 >> AFFILIATION    : Universitas Negeri Yogyakarta (S1 Pendidikan Teknik Mekatronika)
 >> CORE ROLES     : Lead Programmer @ Abhinaya UNY | LKS National Mentor | Creator @detronics.id
 >> AI ENGINE      : Google Antigravity AI Agent & Edge Neural Networks (YOLOv8/11)
@@ -277,7 +277,7 @@ Feel free to connect with me for robotics collaborations, open-source discussion
 | Platform | Official Handle / Link | Purpose |
 | :--- | :--- | :--- |
 | 🌐 **Live 3D Portfolio** | [**triwahyu45.github.io/Portofolio**](https://triwahyu45.github.io/Portofolio/) | WebGL Interactive Showcase & 7 CAD Assemblies |
-| 💼 **LinkedIn** | [**Tri Wahyu Handoyo**](https://www.linkedin.com/in/tri-wahyu-handoyo-a5a40026a/) | Professional Network & Industry Collaborations |
+| 💼 **LinkedIn** | [**Tri Wahyu**](https://www.linkedin.com/in/tri-wahyu-handoyo-a5a40026a/) | Professional Network & Industry Collaborations |
 | 📸 **Instagram** | [**@triwahyu45**](https://instagram.com/triwahyu45) | Personal Engineering Work & Life Updates |
 | 📹 **YouTube** | [**@TriWahyu45**](https://www.youtube.com/@TriWahyu45) | Robotics Project Demos & Video Tutorials |
 | 📱 **TikTok** | [**@triwahyu45**](https://www.tiktok.com/@triwahyu45) | Short Tech Tips & Behind-the-Scenes Builds |
