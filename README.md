@@ -13,7 +13,7 @@
   <!-- DYNAMIC TYPING SVG ANIMATION -->
   <div style="margin-top: 6px; margin-bottom: 12px;">
     <a href="https://git.io/typing-svg">
-      <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=22&duration=2600&pause=800&color=00F5D4&center=true&vCenter=true&multiline=false&width=840&height=50&lines=%E2%9A%A1%20Mechatronics%20Engineer%20%26%20Autonomous%20Robotics%20Developer;%F0%9F%A5%87%20Juara%201%20Wilayah%20%26%20Juara%202%20Nasional%20KRTMI%202024%20%28Abhinaya%20UNY%29;%F0%9F%8F%86%20Juara%201%20Robot%20Creative%20UNLIMITED%20UNDIP%202026;%F0%9F%91%81%EF%B8%8F%20Computer%20Vision%20AI%20%28YOLOv8%20%26%20OpenCV%29%20%E2%80%A2%20STM32%20%2F%20ESP32;%F0%9F%9B%A0%EF%B8%8F%203D%20CAD%20Autodesk%20Inventor%20%E2%80%A2%20PCB%20EAGLE%20%26%20KiCad;%F0%9F%8C%90%20Creator%20%40detronics.id%20%E2%80%A2%2010%2B%20Interactive%20Web%20Simulators" alt="Typing Animation" />
+      <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=22&duration=2600&pause=800&color=00F5D4&center=true&vCenter=true&multiline=false&width=840&height=50&lines=%E2%9A%A1%20Mechatronics%20Engineer%20%26%20Autonomous%20Robotics%20Developer;%F0%9F%A5%87%20Juara%201%20Wilayah%20%26%20Juara%202%20Nasional%20KRTMI%202024%20%28Abhinaya%20UNY%29;%F0%9F%A5%87%20Juara%201%20Lomba%20Esai%20Nasional%20INESCO%202025;%F0%9F%91%81%EF%B8%8F%20Computer%20Vision%20AI%20%28YOLOv8%20%26%20OpenCV%29%20%E2%80%A2%20STM32%20%2F%20ESP32;%F0%9F%9B%A0%EF%B8%8F%203D%20CAD%20Autodesk%20Inventor%20%E2%80%A2%20PCB%20EAGLE%20%26%20KiCad;%F0%9F%8C%90%20Creator%20%40detronics.id%20%E2%80%A2%2010%2B%20Interactive%20Web%20Simulators" alt="Typing Animation" />
     </a>
   </div>
 
@@ -63,8 +63,8 @@ triwahyu@mechatronics-core:~$ ./diagnostics.sh --profile --verbose
 >> CORE ROLE       : Lead Programmer @ Tim Robotika Abhinaya UNY (Divisi KRTMI)
 >> RECORD / TITLES : 🥇 Juara 1 KRTMI Wilayah I 2024 (Sertifikat: 18322/BPTI/DIKTI/2024)
 >>                   🥈 Juara 2 KRTMI Nasional 2024 (Sertifikat: 18869/PPN/DIKTI/2024)
->>                   🥇 Juara 1 Robot Creative UNLIMITED UNDIP 2026
 >>                   🏅 Finalis Technocorner Transporter Robot (FT UGM)
+>>                   🥇 Juara 1 Lomba Esai Nasional INESCO 2025 (Robot Inesco)
 >> PRIMARY STACK   : C/C++ • Python • STM32 (CubeIDE/Keil) • ESP32 • Autodesk Inventor
 >> VISION & AI     : YOLOv8 / YOLOv11 • OpenCV Edge Computing • Closed-Loop PID
 >> SIMULATORS      : 10+ Live Web Applications (Three.js WebGL, Next.js, HTML5 Canvas)
@@ -100,25 +100,17 @@ Berikut adalah dokumentasi robot fisik kompetisi resmi dan desain 3D CAD rekayas
 
 <table>
   <tr>
-    <td width="33%" align="center">
+    <td width="50%" align="center">
       <a href="https://abhinaya-uny.github.io/AbhinayaUNY_Web/" target="_blank">
-        <img src="./assets/robot_krtmi_abhinaya.webp" width="280" alt="Robot KRTMI Abhinaya UNY" /><br><br>
+        <img src="./assets/robot_krtmi_abhinaya.webp" width="300" alt="Robot KRTMI Abhinaya UNY" /><br><br>
         <b>🥇 Robot Otonom KRTMI (Abhinaya UNY)</b>
       </a>
       <p align="left"><small><b>Juara 1 Wilayah I & Juara 2 Nasional KRTMI 2024</b> (Puspresnas Kemendikbudristek). Robot pemilah sampah otonom dengan 4WD Mecanum holonomik, computer vision YOLOv8, sinkronisasi smart basket, dan kontrol PID tertutup.</small></p>
       <code>Mecanum 4WD</code> • <code>YOLOv8 & OpenCV</code> • <code>ESP32 / STM32</code>
     </td>
-    <td width="33%" align="center">
-      <a href="https://abhinaya-uny.github.io/AbhinayaUNY_Web/#achievements" target="_blank">
-        <img src="./assets/robot_undip_creative.webp" width="280" alt="Robot Creative UNDIP" /><br><br>
-        <b>🏆 Robot Creative (UNLIMITED UNDIP 2026)</b>
-      </a>
-      <p align="left"><small><b>Juara 1 Robot Creative</b> (Environmental Monitoring & Waste Management, Universitas Diponegoro). Robot terintegrasi sensor lingkungan, telemetri nirkabel, dan otomasi pemilahan sampah cerdas.</small></p>
-      <code>Robot Creative</code> • <code>Environmental IoT</code> • <code>UNDIP 2026</code>
-    </td>
-    <td width="33%" align="center">
+    <td width="50%" align="center">
       <a href="https://triwahyu45.github.io/Portofolio/#cad-3d-viewer" target="_blank">
-        <img src="./assets/robot_transporter.png" width="280" alt="Robot Transporter Technocorner" /><br><br>
+        <img src="./assets/robot_transporter.png" width="300" alt="Robot Transporter Technocorner" /><br><br>
         <b>🦾 Robot Transporter (Technocorner FT UGM)</b>
       </a>
       <p align="left"><small><b>Finalis Technocorner Transporter Robot</b> (Fakultas Teknik Universitas Gadjah Mada). Drivetrain Mecanum holonomik presisi, mekanisme lead-screw motorized gripper, dual driver TB6612FNG, dan kendali PID.</small></p>
@@ -223,7 +215,6 @@ Daftar prestasi resmi yang didasarkan pada nomor sertifikat fisik dan penyelengg
 | :--- | :--- | :---: | :--- |
 | 🥇 **Juara 1 Regional I Wilayah** | Kontes Robot Tematik Indonesia (KRTMI) 2024 | Wilayah I | BPTI Puspresnas Kemendikbudristek RI *(Sertifikat: 18322/BPTI/DIKTI/2024)* |
 | 🥈 **Juara 2 Tingkat Nasional** | Kontes Robot Tematik Indonesia (KRTMI) 2024 | Nasional | Puspresnas Kemendikbudristek RI *(Sertifikat: 18869/PPN/DIKTI/2024)* |
-| 🥇 **Juara 1 Robot Creative** | UNLIMITED UNDIP 2026 | Nasional | Universitas Diponegoro *(Environmental Monitoring & Waste Management)* |
 | 🏅 **Finalis Transporter Robot** | Technocorner 2024 / 2026 | Nasional | KMTETI Fakultas Teknik Universitas Gadjah Mada (UGM) |
 | 🥇 **Juara 1 Lomba Esai Nasional** | INESCO 2025 | Nasional | Universitas Muhammadiyah Purwokerto *(Inovasi Robot Inesco)* |
 | 🥇 **Juara 1 National Essay** | HIMEPA 2025 | Nasional | Universitas Tanjungpura Pontianak *(SmartTrash Tinggi)* |
