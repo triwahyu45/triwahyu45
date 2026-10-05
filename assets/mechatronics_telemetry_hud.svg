@@ -1,0 +1,304 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="100%" height="340">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="hudBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080A10"/>
+      <stop offset="50%" stop-color="#0E131F"/>
+      <stop offset="100%" stop-color="#06080D"/>
+    </linearGradient>
+
+    <linearGradient id="panelGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#141C2E" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#0A0E18" stop-opacity="0.95"/>
+    </linearGradient>
+
+    <linearGradient id="cyanGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F5D4"/>
+      <stop offset="50%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#00F5D4"/>
+    </linearGradient>
+
+    <linearGradient id="orangeGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF6B00"/>
+      <stop offset="100%" stop-color="#FFA800"/>
+    </linearGradient>
+
+    <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F5D4" stop-opacity="0.1"/>
+      <stop offset="50%" stop-color="#00F5D4" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.3"/>
+    </linearGradient>
+
+    <filter id="neonBlur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes osciFlow {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-300px); }
+    }
+    @keyframes ledBlinkGreen {
+      0%, 100% { opacity: 0.3; fill: #008f5d; }
+      50% { opacity: 1; fill: #00F5D4; filter: drop-shadow(0 0 6px #00F5D4); }
+    }
+    @keyframes ledBlinkOrange {
+      0%, 100% { opacity: 1; fill: #FF6B00; filter: drop-shadow(0 0 6px #FF6B00); }
+      50% { opacity: 0.3; fill: #8a3800; }
+    }
+    @keyframes ledFastPulse {
+      0%, 100% { opacity: 0.4; }
+      50% { opacity: 1; filter: drop-shadow(0 0 8px #38BDF8); }
+    }
+    @keyframes wheelRotateCW {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    @keyframes wheelRotateCCW {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(-360deg); }
+    }
+    @keyframes scanlineAnim {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(340px); }
+    }
+    @keyframes vectorPulse {
+      0%, 100% { opacity: 0.5; transform: scale(0.96); }
+      50% { opacity: 1; transform: scale(1.04); }
+    }
+    @keyframes barPulse1 {
+      0%, 100% { width: 145px; }
+      50% { width: 165px; }
+    }
+    @keyframes barPulse2 {
+      0%, 100% { width: 120px; }
+      50% { width: 140px; }
+    }
+    .mono-code {
+      font-family: 'Space Mono', 'Consolas', 'Courier New', monospace;
+      font-size: 11px;
+      fill: #94A3B8;
+    }
+    .hud-title {
+      font-family: 'Space Grotesk', -apple-system, sans-serif;
+      font-weight: 700;
+      font-size: 13px;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+    }
+    .led-g { animation: ledBlinkGreen 1.4s ease-in-out infinite; }
+    .led-o { animation: ledBlinkOrange 0.9s ease-in-out infinite; }
+    .led-b { animation: ledFastPulse 0.5s ease-in-out infinite; }
+    .wheel-r { transform-origin: center; animation: wheelRotateCW 4s linear infinite; }
+    .wheel-l { transform-origin: center; animation: wheelRotateCCW 4s linear infinite; }
+    .vec-pulse { transform-origin: 600px 170px; animation: vectorPulse 2s ease-in-out infinite; }
+  </style>
+
+  <!-- Container Base -->
+  <rect width="1200" height="340" rx="16" fill="url(#hudBg)" stroke="#1E293B" stroke-width="2"/>
+
+  <!-- Top Circuit Accent Line -->
+  <path d="M 30,12 L 200,12 L 220,24 L 980,24 L 1000,12 L 1170,12" fill="none" stroke="url(#cyanGlow)" stroke-width="2" filter="url(#neonBlur)"/>
+  <circle cx="200" cy="12" r="3" fill="#00F5D4"/>
+  <circle cx="1000" cy="12" r="3" fill="#FF6B00"/>
+
+  <!-- ================================================================= -->
+  <!-- PANEL 1: DIGITAL OSCILLOSCOPE (CLOSED-LOOP PID MOTOR RESPONSE) -->
+  <!-- ================================================================= -->
+  <g transform="translate(30, 45)">
+    <rect width="360" height="265" rx="10" fill="url(#panelGrad)" stroke="#1E293B" stroke-width="1.5"/>
+    
+    <!-- Header -->
+    <rect x="0" y="0" width="360" height="34" rx="10" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+    <text x="16" y="22" class="hud-title" fill="#00F5D4">📈 PID LOOP OSCILLOSCOPE</text>
+    <circle cx="335" cy="17" r="5" class="led-g"/>
+    <text x="270" y="21" class="mono-code" fill="#00F5D4" font-weight="bold">100 Hz</text>
+
+    <!-- Scope Screen -->
+    <g transform="translate(15, 45)">
+      <!-- CRT Background -->
+      <rect width="330" height="150" rx="6" fill="#03080F" stroke="#00F5D4" stroke-opacity="0.3" stroke-width="1"/>
+      
+      <!-- Scope Grid -->
+      <g stroke="#00F5D4" stroke-opacity="0.08" stroke-width="1">
+        <line x1="0" y1="30" x2="330" y2="30"/>
+        <line x1="0" y1="60" x2="330" y2="60"/>
+        <line x1="0" y1="75" x2="330" y2="75" stroke-dasharray="2,2" stroke-opacity="0.25"/>
+        <line x1="0" y1="90" x2="330" y2="90"/>
+        <line x1="0" y1="120" x2="330" y2="120"/>
+        <line x1="55" y1="0" x2="55" y2="150"/>
+        <line x1="110" y1="0" x2="110" y2="150"/>
+        <line x1="165" y1="0" x2="165" y2="150" stroke-dasharray="2,2" stroke-opacity="0.25"/>
+        <line x1="220" y1="0" x2="220" y2="150"/>
+        <line x1="275" y1="0" x2="275" y2="150"/>
+      </g>
+
+      <!-- Target Reference Line (Setpoint) -->
+      <line x1="0" y1="50" x2="330" y2="50" stroke="#FF6B00" stroke-width="1.5" stroke-dasharray="4,3" stroke-opacity="0.8"/>
+      <text x="8" y="44" class="mono-code" fill="#FF6B00" font-size="9">SETPOINT: 1200 RPM</text>
+
+      <!-- Flowing Sine/PID Response Waveform (Clip Path) -->
+      <g clip-path="url(#scopeClip)">
+        <clipPath id="scopeClip">
+          <rect width="330" height="150" rx="6"/>
+        </clipPath>
+        
+        <!-- Infinite flowing wave duplicate container -->
+        <g style="animation: osciFlow 3s linear infinite;">
+          <path d="M 0,75 Q 35,20 75,50 T 150,50 T 225,50 T 300,50 Q 335,20 375,50 T 450,50 T 525,50 T 600,50 Q 635,20 675,50 T 750,50 T 825,50 T 900,50" 
+                fill="none" stroke="url(#cyanGlow)" stroke-width="2.5" filter="url(#neonBlur)"/>
+        </g>
+      </g>
+
+      <!-- Voltage scale -->
+      <text x="245" y="140" class="mono-code" fill="#38BDF8" font-size="9">CH1: 2.0V/DIV</text>
+      <text x="10" y="140" class="mono-code" fill="#00F5D4" font-size="9">ERR: ±0.015%</text>
+    </g>
+
+    <!-- Scope Telemetry Details -->
+    <g transform="translate(18, 212)">
+      <text x="0" y="12" class="mono-code" fill="#64748B">Kp: <tspan fill="#F8FAFC">2.450</tspan> | Ki: <tspan fill="#F8FAFC">0.120</tspan> | Kd: <tspan fill="#F8FAFC">0.085</tspan></text>
+      <text x="0" y="32" class="mono-code" fill="#64748B">STATUS: <tspan fill="#00F5D4" font-weight="bold">CLOSED-LOOP LOCKED</tspan></text>
+      <rect x="230" y="18" width="90" height="18" rx="4" fill="#0284C7" fill-opacity="0.2" stroke="#38BDF8" stroke-width="1"/>
+      <text x="240" y="31" class="mono-code" fill="#38BDF8" font-size="9">DMP FILTER</text>
+    </g>
+  </g>
+
+  <!-- ================================================================= -->
+  <!-- PANEL 2: 4WD MECANUM ROBOT KINEMATICS (ABHINAYA KRTMI CHASSIS) -->
+  <!-- ================================================================= -->
+  <g transform="translate(415, 45)">
+    <rect width="370" height="265" rx="10" fill="url(#panelGrad)" stroke="#1E293B" stroke-width="1.5"/>
+    
+    <!-- Header -->
+    <rect x="0" y="0" width="370" height="34" rx="10" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+    <text x="16" y="22" class="hud-title" fill="#FF6B00">🤖 4WD MECANUM KINEMATICS</text>
+    <circle cx="345" cy="17" r="5" class="led-o"/>
+    <text x="270" y="21" class="mono-code" fill="#FF6B00" font-weight="bold">3-DOF</text>
+
+    <!-- Kinematics Chassis Diagram -->
+    <g transform="translate(185, 135)" class="vec-pulse">
+      <!-- Robot Center Body -->
+      <rect x="-60" y="-55" width="120" height="110" rx="8" fill="#0F172A" stroke="#38BDF8" stroke-width="2"/>
+      
+      <!-- Coordinate Axes -->
+      <line x1="0" y1="0" x2="0" y2="-45" stroke="#FF6B00" stroke-width="2" marker-end="url(#arrowOrange)"/>
+      <line x1="0" y1="0" x2="45" y2="0" stroke="#00F5D4" stroke-width="2" marker-end="url(#arrowCyan)"/>
+      <circle cx="0" cy="0" r="4" fill="#F8FAFC"/>
+      <text x="-4" y="-35" class="mono-code" fill="#FF6B00" font-size="10" font-weight="bold">Vx</text>
+      <text x="32" y="14" class="mono-code" fill="#00F5D4" font-size="10" font-weight="bold">Vy</text>
+
+      <!-- Wheel 1: Front Left (45 deg rollers) -->
+      <g transform="translate(-75, -55)">
+        <rect x="-8" y="-18" width="16" height="36" rx="4" fill="#1E293B" stroke="#00F5D4" stroke-width="1.5"/>
+        <line x1="-6" y1="-10" x2="6" y2="0" stroke="#00F5D4" stroke-width="1.5"/>
+        <line x1="-6" y1="0" x2="6" y2="10" stroke="#00F5D4" stroke-width="1.5"/>
+        <text x="-24" y="2" class="mono-code" fill="#00F5D4" font-size="9">W1</text>
+      </g>
+
+      <!-- Wheel 2: Front Right (-45 deg rollers) -->
+      <g transform="translate(75, -55)">
+        <rect x="-8" y="-18" width="16" height="36" rx="4" fill="#1E293B" stroke="#00F5D4" stroke-width="1.5"/>
+        <line x1="6" y1="-10" x2="-6" y2="0" stroke="#00F5D4" stroke-width="1.5"/>
+        <line x1="6" y1="0" x2="-6" y2="10" stroke="#00F5D4" stroke-width="1.5"/>
+        <text x="12" y="2" class="mono-code" fill="#00F5D4" font-size="9">W2</text>
+      </g>
+
+      <!-- Wheel 3: Rear Left (-45 deg rollers) -->
+      <g transform="translate(-75, 55)">
+        <rect x="-8" y="-18" width="16" height="36" rx="4" fill="#1E293B" stroke="#00F5D4" stroke-width="1.5"/>
+        <line x1="6" y1="-10" x2="-6" y2="0" stroke="#00F5D4" stroke-width="1.5"/>
+        <line x1="6" y1="0" x2="-6" y2="10" stroke="#00F5D4" stroke-width="1.5"/>
+        <text x="-24" y="4" class="mono-code" fill="#00F5D4" font-size="9">W3</text>
+      </g>
+
+      <!-- Wheel 4: Rear Right (45 deg rollers) -->
+      <g transform="translate(75, 55)">
+        <rect x="-8" y="-18" width="16" height="36" rx="4" fill="#1E293B" stroke="#00F5D4" stroke-width="1.5"/>
+        <line x1="-6" y1="-10" x2="6" y2="0" stroke="#00F5D4" stroke-width="1.5"/>
+        <line x1="-6" y1="0" x2="6" y2="10" stroke="#00F5D4" stroke-width="1.5"/>
+        <text x="12" y="4" class="mono-code" fill="#00F5D4" font-size="9">W4</text>
+      </g>
+
+      <!-- Rotational Arc ωz -->
+      <path d="M -30,-30 A 42 42 0 0 1 30,-30" fill="none" stroke="#F59E0B" stroke-width="2" stroke-dasharray="3,3"/>
+      <text x="-8" y="-48" class="mono-code" fill="#F59E0B" font-size="10">ωz</text>
+    </g>
+
+    <!-- Kinematics Telemetry Status -->
+    <g transform="translate(18, 222)">
+      <text x="0" y="12" class="mono-code" fill="#64748B">VELOCITY: <tspan fill="#00F5D4">1.75 m/s</tspan> | HEADING: <tspan fill="#FF6B00">359.8°</tspan></text>
+      <text x="0" y="30" class="mono-code" fill="#64748B">HOLONOMIC VECTOR: <tspan fill="#F8FAFC">Vx + Vy + ωz(Lx+Ly)</tspan></text>
+    </g>
+  </g>
+
+  <!-- ================================================================= -->
+  <!-- PANEL 3: EMBEDDED SYSTEM, VISION & HARDWARE HEALTH -->
+  <!-- ================================================================= -->
+  <g transform="translate(810, 45)">
+    <rect width="360" height="265" rx="10" fill="url(#panelGrad)" stroke="#1E293B" stroke-width="1.5"/>
+    
+    <!-- Header -->
+    <rect x="0" y="0" width="360" height="34" rx="10" fill="#0F172A" stroke="#1E293B" stroke-width="1"/>
+    <text x="16" y="22" class="hud-title" fill="#38BDF8">⚡ HARDWARE &amp; AI PIPELINE</text>
+    <circle cx="335" cy="17" r="5" class="led-b"/>
+    <text x="270" y="21" class="mono-code" fill="#38BDF8" font-weight="bold">ONLINE</text>
+
+    <!-- Subsystem List with Real Indicators -->
+    <g transform="translate(20, 50)">
+      <!-- Item 1: STM32 Firmware -->
+      <g transform="translate(0, 0)">
+        <circle cx="6" cy="6" r="4" class="led-g"/>
+        <text x="22" y="10" class="mono-code" fill="#F8FAFC" font-weight="bold">STM32 MCU Core (84 MHz)</text>
+        <text x="250" y="10" class="mono-code" fill="#00F5D4">ACTIVE</text>
+        <!-- Bar gauge -->
+        <rect x="22" y="16" width="280" height="6" rx="3" fill="#1E293B"/>
+        <rect x="22" y="16" width="220" height="6" rx="3" fill="#00F5D4" style="animation: barPulse1 2.5s ease-in-out infinite;"/>
+      </g>
+
+      <!-- Item 2: YOLOv8 Computer Vision -->
+      <g transform="translate(0, 38)">
+        <circle cx="6" cy="6" r="4" class="led-b"/>
+        <text x="22" y="10" class="mono-code" fill="#F8FAFC" font-weight="bold">YOLOv8 Edge AI Vision</text>
+        <text x="245" y="10" class="mono-code" fill="#38BDF8">30.2 FPS</text>
+        <!-- Bar gauge -->
+        <rect x="22" y="16" width="280" height="6" rx="3" fill="#1E293B"/>
+        <rect x="22" y="16" width="200" height="6" rx="3" fill="#38BDF8" style="animation: barPulse2 3s ease-in-out infinite;"/>
+      </g>
+
+      <!-- Item 3: ESP32 Telemetry -->
+      <g transform="translate(0, 76)">
+        <circle cx="6" cy="6" r="4" class="led-o"/>
+        <text x="22" y="10" class="mono-code" fill="#F8FAFC" font-weight="bold">ESP32 WebSocket Telemetry</text>
+        <text x="250" y="10" class="mono-code" fill="#FF6B00">&lt; 4 ms</text>
+        <!-- Bar gauge -->
+        <rect x="22" y="16" width="280" height="6" rx="3" fill="#1E293B"/>
+        <rect x="22" y="16" width="250" height="6" rx="3" fill="#FF6B00"/>
+      </g>
+
+      <!-- Item 4: Power & Battery Monitor -->
+      <g transform="translate(0, 114)">
+        <circle cx="6" cy="6" r="4" fill="#10B981"/>
+        <text x="22" y="10" class="mono-code" fill="#F8FAFC" font-weight="bold">LiPo Battery Pack 3S</text>
+        <text x="242" y="10" class="mono-code" fill="#10B981">12.58 V</text>
+        <!-- Bar gauge -->
+        <rect x="22" y="16" width="280" height="6" rx="3" fill="#1E293B"/>
+        <rect x="22" y="16" width="260" height="6" rx="3" fill="#10B981"/>
+      </g>
+    </g>
+
+    <!-- Footer System Pill -->
+    <g transform="translate(20, 222)">
+      <rect width="320" height="24" rx="6" fill="#03080F" stroke="#1E293B" stroke-width="1"/>
+      <text x="14" y="16" class="mono-code" fill="#64748B">TOOLCHAIN: <tspan fill="#F8FAFC">STM32CubeIDE • Inventor • EAGLE</tspan></text>
+    </g>
+  </g>
+
+  <!-- Bottom Accent Wave -->
+  <path d="M 0,335 L 400,335 L 430,325 L 770,325 L 800,335 L 1200,335" fill="none" stroke="#1E293B" stroke-width="2"/>
+</svg>

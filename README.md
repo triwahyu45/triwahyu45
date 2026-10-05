@@ -11,7 +11,7 @@
   </a>
 
   <!-- DYNAMIC TYPING SVG ANIMATION -->
-  <div style="margin-top: 6px; margin-bottom: 12px;">
+  <div style="margin-top: 8px; margin-bottom: 12px;">
     <a href="https://git.io/typing-svg">
       <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=22&duration=2600&pause=800&color=00F5D4&center=true&vCenter=true&multiline=false&width=840&height=50&lines=%E2%9A%A1%20Mechatronics%20Engineer%20%26%20Autonomous%20Robotics%20Developer;%F0%9F%A5%87%20Juara%201%20Wilayah%20%26%20Juara%202%20Nasional%20KRTMI%202024%20%28Abhinaya%20UNY%29;%F0%9F%A5%87%20Juara%201%20Lomba%20Esai%20Nasional%20INESCO%202025;%F0%9F%91%81%EF%B8%8F%20Computer%20Vision%20AI%20%28YOLOv8%20%26%20OpenCV%29%20%E2%80%A2%20STM32%20%2F%20ESP32;%F0%9F%9B%A0%EF%B8%8F%203D%20CAD%20Autodesk%20Inventor%20%E2%80%A2%20PCB%20EAGLE%20%26%20KiCad;%F0%9F%8C%90%20Creator%20%40detronics.id%20%E2%80%A2%2010%2B%20Interactive%20Web%20Simulators" alt="Typing Animation" />
     </a>
@@ -48,6 +48,14 @@
     </a>
   </p>
 
+</div>
+
+---
+
+### 📡 Live Mechatronics Telemetry HUD & Oscilloscope
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/triwahyu45/triwahyu45/main/assets/mechatronics_telemetry_hud.svg" width="100%" alt="Mechatronics Telemetry HUD & Oscilloscope" />
 </div>
 
 ---
@@ -165,6 +173,24 @@ Seluruh aplikasi web dan simulator interaktif yang saya kembangkan dapat langsun
 | **📋 Wahyu's Plan Notion-Style App** | [**Buka Web 🚀**](https://triwahyu45.github.io/Wahyus-Plan/) | [**Kode Repo 📂**](https://github.com/triwahyu45/Wahyus-Plan) | `React` `Tailwind CSS` `LocalStorage` | Aplikasi manajemen produktivitas personal gaya Notion dengan Kanban board tugas, roadmap kalender, dan sinkronisasi penyimpanan lokal. |
 | **🎯 Simulasi Omni Technocorner 2026** | [**Buka Web 🚀**](https://triwahyu45.github.io/simulasi-omni-technocorner-2026/) | [**Kode Repo 📂**](https://github.com/triwahyu45/simulasi-omni-technocorner-2026) | `HTML5 Canvas` `Vector Kinematics` | Simulasi trajektori arena Technocorner Transporter UGM dengan kalkulasi matriks invers kinematika roda omni 3W/4W. |
 
+</div>
+
+---
+
+### 🏆 GitHub Milestones & Trophies
+
+<div align="center">
+  <a href="https://github.com/triwahyu45">
+    <img src="https://github-profile-trophy.vercel.app/?username=triwahyu45&theme=onedark&no-frame=true&margin-w=4&margin-h=4&row=1&column=7" alt="GitHub Trophies" />
+  </a>
+</div>
+
+---
+
+### 🐍 GitHub Contribution Eater
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/triwahyu45/triwahyu45/main/assets/github-contribution-grid-snake.svg" width="95%" alt="GitHub Contribution Snake" />
 </div>
 
 ---
