@@ -75,8 +75,9 @@ triwahyu@mechatronics-core:~$ ./diagnostics.sh --profile --verbose
 >>                   🥇 Juara 1 Lomba Esai Nasional INESCO 2025 (Robot Inesco)
 >> PRIMARY STACK   : C/C++ • Python • STM32 (CubeIDE/Keil) • ESP32 • Autodesk Inventor
 >> VISION & AI     : YOLOv8 / YOLOv11 • OpenCV Edge Computing • Closed-Loop PID
+>> FEATURED REPOS  : Hermes-Navigator (FIRA) • RE_Redmi-Watch-5-Active • UbRoid
 >> SIMULATORS      : 10+ Live Web Applications (Three.js WebGL, Next.js, HTML5 Canvas)
->> CURRENT STATUS  : 🟢 Active in Robotics Research, Embedded Firmware & Web Simulators
+>> CURRENT STATUS  : 🟢 Active in Autonomous Robotics, Embedded RE & Web Simulators
 ================================================================================
 ```
 
@@ -177,12 +178,17 @@ Seluruh aplikasi web dan simulator interaktif yang saya kembangkan dapat langsun
 
 ---
 
-### 🏆 GitHub Milestones & Trophies
+### ⚙️ Featured Robotics, Embedded & Systems Repositories
 
 <div align="center">
-  <a href="https://github.com/triwahyu45">
-    <img src="https://github-profile-trophy.vercel.app/?username=triwahyu45&theme=onedark&no-frame=true&margin-w=4&margin-h=4&row=1&column=7" alt="GitHub Trophies" />
-  </a>
+
+| Proyek / Sistem | Repositori | Fokus Teknologi | Deskripsi Singkat |
+| :--- | :---: | :--- | :--- |
+| **🏎️ Hermes-Navigator & Robotics NUC** | [**Hermes-Navigator**](https://github.com/triwahyu45/Hermes-Navigator) • [**Robotics_Nuc**](https://github.com/triwahyu45/Robotics_Nuc) | `Python` `OpenCV` `Autonomous` | Sistem navigasi otonom & vision lane-following untuk mobil otonom (FIRA). |
+| **⌚ Redmi Watch 5 Active RE** | [**RE_Redmi-Watch-5-Active**](https://github.com/triwahyu45/RE_Redmi-Watch-5-Active) | `Reverse Engineering` `BLE` `Binary` | Riset reverse engineering firmware, protokol BLE, dan format watchface `.bin`. |
+| **🐧 UbRoid (Ubuntu on Android)** | [**UbRoid_TriWahyu45**](https://github.com/triwahyu45/UbRoid_TriWahyu45) | `Linux` `Android` `Shell` | Lingkungan Ubuntu Linux berjalan di perangkat Android untuk mobilitas development. |
+| **🔊 DetronicsID & QrisSound** | [**DetronicsID**](https://github.com/triwahyu45/DetronicsID) • [**QrisSound**](https://github.com/triwahyu45/QrisSound) | `ESP32` `IoT` `Audio` | Modul hardware IoT & perangkat notifikasi suara transaksi QRIS berbasis mikrokontroler. |
+
 </div>
 
 ---
