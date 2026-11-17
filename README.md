@@ -75,7 +75,7 @@ triwahyu@mechatronics-core:~$ ./diagnostics.sh --profile --verbose
 >>                   🥇 Juara 1 Lomba Esai Nasional INESCO 2025 (Robot Inesco)
 >> PRIMARY STACK   : C/C++ • Python • STM32 (CubeIDE/Keil) • ESP32 • Autodesk Inventor
 >> VISION & AI     : YOLOv8 / YOLOv11 • OpenCV Edge Computing • Closed-Loop PID
->> FEATURED REPOS  : Hermes-Navigator (FIRA) • RE_Redmi-Watch-5-Active • UbRoid
+>> FEATURED REPOS  : Robotics_Nuc • RE_Redmi-Watch-5-Active • UbRoid_TriWahyu45
 >> SIMULATORS      : 10+ Live Web Applications (Three.js WebGL, Next.js, HTML5 Canvas)
 >> CURRENT STATUS  : 🟢 Active in Autonomous Robotics, Embedded RE & Web Simulators
 ================================================================================
@@ -184,7 +184,7 @@ Seluruh aplikasi web dan simulator interaktif yang saya kembangkan dapat langsun
 
 | Proyek / Sistem | Repositori | Fokus Teknologi | Deskripsi Singkat |
 | :--- | :---: | :--- | :--- |
-| **🏎️ Hermes-Navigator & Robotics NUC** | [**Hermes-Navigator**](https://github.com/triwahyu45/Hermes-Navigator) • [**Robotics_Nuc**](https://github.com/triwahyu45/Robotics_Nuc) | `Python` `OpenCV` `Autonomous` | Sistem navigasi otonom & vision lane-following untuk mobil otonom (FIRA). |
+| **🏎️ Robotics NUC (Autonomous Systems)** | [**Robotics_Nuc**](https://github.com/triwahyu45/Robotics_Nuc) | `Python` `OpenCV` `Autonomous` | Sistem kontrol & visi komputer untuk navigasi robot otonom. |
 | **⌚ Redmi Watch 5 Active RE** | [**RE_Redmi-Watch-5-Active**](https://github.com/triwahyu45/RE_Redmi-Watch-5-Active) | `Reverse Engineering` `BLE` `Binary` | Riset reverse engineering firmware, protokol BLE, dan format watchface `.bin`. |
 | **🐧 UbRoid (Ubuntu on Android)** | [**UbRoid_TriWahyu45**](https://github.com/triwahyu45/UbRoid_TriWahyu45) | `Linux` `Android` `Shell` | Lingkungan Ubuntu Linux berjalan di perangkat Android untuk mobilitas development. |
 | **🔊 DetronicsID & QrisSound** | [**DetronicsID**](https://github.com/triwahyu45/DetronicsID) • [**QrisSound**](https://github.com/triwahyu45/QrisSound) | `ESP32` `IoT` `Audio` | Modul hardware IoT & perangkat notifikasi suara transaksi QRIS berbasis mikrokontroler. |
